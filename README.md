@@ -27,13 +27,7 @@ This installer is similar to my [Terraform Installer](https://github.com/robertp
 
 ## Install
 
-Express install via `iac.sh` or `https://iac.sh` (my bootstrap server)
-
-``` shell
-curl iac.sh/vault | sh   # run without '| sh' to view & verify script
-```
-
-Manual Download
+Download Installer
 
 ``` shell
 curl -LO https://raw.github.com/robertpeteuil/vault-installer/master/vault-install.sh
@@ -42,12 +36,10 @@ chmod +x vault-install.sh
 
 ## Use
 
-Run command with
+### Run local installer
 
 ``` shell
 ./vault-install.sh
-
-# Download and Install Vault - Latest Version unless '-i' specified
 
 # usage: vault-install.sh [-i VERSION] [-a] [-c] [-h] [-v]
 #      -i VERSION	: specify version to install in format '' (OPTIONAL)
@@ -55,6 +47,12 @@ Run command with
 #      -c		: leave binary in working directory (for CI/DevOps use)
 #      -h		: help
 #      -v		: display vault-install.sh version
+```
+
+### Express install via `iac.sh` or `https://iac.sh` (my bootstrap server)
+
+``` shell
+curl iac.sh/vault | sh   # run without '| sh' to view & verify script
 ```
 
 ## System Requirements
