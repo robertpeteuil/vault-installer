@@ -14,7 +14,7 @@ set -e
 # sudoInstall=true
 
 scriptname=$(basename "$0")
-scriptbuildnum="1.5.0"
+scriptbuildnum="1.5.1"
 scriptbuilddate="2019-04-07"
 
 # CHECK DEPENDANCIES AND SET NET RETRIEVAL TOOL
