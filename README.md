@@ -1,4 +1,4 @@
-# Vault Installer - Automated vault Installation
+# Installer for HashiCorp Vault - Automated Installation
 
 ## Automatically Download, Extract and Install Latest or Specific Version
 
