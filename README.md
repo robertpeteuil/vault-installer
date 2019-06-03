@@ -25,7 +25,13 @@ Options:
 
 This installer is similar to my [Terraform Installer](https://github.com/robertpeteuil/terraform-installer) and [Packer Installer](https://github.com/robertpeteuil/packer-installer)
 
-## Install
+## Express install latest version via my bootstrap server (iac.sh or https://iac.sh)
+
+``` shell
+curl iac.sh/vault | sh
+```
+
+## Download and Use Locally
 
 Download Installer
 
@@ -34,7 +40,12 @@ curl -LO https://raw.github.com/robertpeteuil/vault-installer/master/vault-insta
 chmod +x vault-install.sh
 ```
 
-## Use
+Download installer via my bootstrap server (iac.sh or https://iac.sh)
+
+``` shell
+curl iac.sh/vault.sh | sh
+# installer downloaded as vault-install.sh to current directory
+```
 
 ### Run local installer
 
@@ -47,12 +58,6 @@ chmod +x vault-install.sh
 #      -c		: leave binary in working directory (for CI/DevOps use)
 #      -h		: help
 #      -v		: display vault-install.sh version
-```
-
-### Express install via `iac.sh` or `https://iac.sh` (my bootstrap server)
-
-``` shell
-curl iac.sh/vault | sh   # run without '| sh' to view & verify script
 ```
 
 ## System Requirements
